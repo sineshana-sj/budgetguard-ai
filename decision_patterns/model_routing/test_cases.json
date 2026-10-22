@@ -1,0 +1,20 @@
+[
+  {
+    "id": "case-01",
+    "prompt": "What is the capital of France?",
+    "expected_route": "LIGHTWEIGHT",
+    "description": "Factual knowledge query"
+  },
+  {
+    "id": "case-02",
+    "prompt": "Design a distributed event streaming architecture on AWS with active-active failover",
+    "expected_route": "ADVANCED",
+    "description": "Complex cloud architecture design"
+  },
+  {
+    "id": "case-03",
+    "prompt": "Fix it.",
+    "expected_route": "CLARIFY",
+    "description": "Zero-context query needing clarification"
+  }
+]
